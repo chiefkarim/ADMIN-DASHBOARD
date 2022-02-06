@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
+    Sans-Serif;
+  font-weight: normal;
+  color: #272727;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+P {
+  margin: 0;
+}
+body {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  margin: 0;
+}
+nav {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  grid-template-rows: repeat(7, 1fr) 3fr;
+  background: #1992d4;
+  padding: 12px;
+}
+.other {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
